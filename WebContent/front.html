@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+ <meta charset="utf-8">
+ 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/resources/demos/style.css">
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	
+    <![endif]-->
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+  $(function() {
+    var availableTags = [
+      "San Jose State University"
+      
+      
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+  
+  <script>
+  $(function() {
+    var availableTags1 = [
+      "Software Engg",
+      "Computer Science"
+    ];
+    $( "#tags1" ).autocomplete({
+      source: availableTags1
+    });
+  });
+  </script>
+
+
+  </head>
+
+  <body background="images/im11.jpg">
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+
+          <li class="active"><a href="#" style="color:#000000">Home</a></li>
+          <li><a href="Aboutus.html" style="color:#000000">About</a></li>
+          <li><a href="contactUs.html" style="color:#000000">Contact</a></li>
+		<li><a href="Signin.html" style="color:#000000">SignIn</a></li>
+
+        </ul>
+        <h3 style="color:#000000">University Course Rating</h3>
+      </div>
+
+      <div class="jumbotron">
+        
+
+<form action="search.jsp">
+							<table>
+							<tr>
+							<td> <h3>Refine Your Search </br></br>
+							</br</h3></td>
+							
+							</tr>
+							
+								<tr>
+									
+									<td >
+					<input type="text" name="univ" class="form-control" placeholder="Select university" id="tags" required="" autofocus="">
+								</td>
+								<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+								<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+								<td>&nbsp&nbsp&nbsp</td>
+								<td>&nbsp&nbsp&nbsp</td><td>&nbsp&nbsp&nbsp</td>
+								
+								
+								
+									<td >
+					<input type="text" name="dept" class="form-control" placeholder="Select deparment" id="tags1" required="" autofocus="">
+								
+								</td>
+								
+								</tr>
+								
+							</table>
+						</br>
+						</br>
+							</br>
+							<input type="submit"  value="Search" class="btn btn-xs btn-primary" id="submit">
+				
+						</form>
+
+
+      </div>
+
+
+
+      <div class="footer">
+        <p>© Company 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+
+</body></html>
